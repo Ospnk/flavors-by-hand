@@ -1,16 +1,18 @@
 # flavor_demo
 
-A new Flutter project.
+A new Flutter project that demonstrates that we can can configure our flavors by hand and result of it
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+to run prodaction flavour you should use command 
+flutter run --target lib/main_prod.dart --flavor prod   
 
-A few resources to get you started if this is your first Flutter project:
+to run staging flavour you should use command 
+flutter run --target lib/main_stage.dart --flavor stage   
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+to run development flavour you should use command 
+flutter run --target lib/main_dev.dart --flavor dev
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+or launch from side menu on vs code that flavour that you want to run
